@@ -6,7 +6,7 @@ Sidebar is controlled by the file `config.toml`.
 
 - `title` is the title of the website.
 - `shortbio` is the text displayed right under the title.
-- `logo` is the filename of the picture. The file is placed in `content/`. For example, if `logo = "gr.jpg"` then the picture should be placed at `content/gr.jpg` (as it is now).
+- `logo` is the filename of the picture. The file is placed in `content/`. For example, if `logo = "sc.jpg"` then the picture should be placed at `content/sc.jpg` (as it is now).
 
 ### Bio, Contact, From Another Life, and Personal
 
@@ -42,4 +42,3 @@ works:
 ```
 
 Everything in the data files are optional, except the title. So you may have an article without abstract and links, and another one without note and PDF link.
-
