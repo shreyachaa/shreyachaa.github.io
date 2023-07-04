@@ -42,3 +42,7 @@ works:
 ```
 
 Everything in the data files are optional, except the title. So you may have an article without abstract and links, and another one without note and PDF link.
+
+**Tip** for deployment: follow [this](https://gohugo.io/hosting-and-deployment/hosting-on-github/) link!
+
+Thanks to [Gautam Rao](https://gautam-rao.com) for making his code publicly available!
