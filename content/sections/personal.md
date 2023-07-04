@@ -1,4 +1,5 @@
-Meet my support systems - [Utkarsh Kumar](https://k-utkarsh.github.io) and [Cookie](cookie.JPG)
+Meet my support systems - [Utkarsh Kumar](https://k-utkarsh.github.io) 
+[Cookie](cookie.JPG)
 
 
 **Website**: Thanks to [Gautam Rao](https://gautam-rao.com) for making his code publicly available.
