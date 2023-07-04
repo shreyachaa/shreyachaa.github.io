@@ -1,12 +1,2 @@
 courses:
 - title: International Economic Development
-  id: "MDP 253"
-  institute: Masters of Development Practice, Goldman School of Public Policy, UC Berkeley
-  term: "Spring 2022, 2023"
-  instructor: Prof. Marco Gonzalez-Navarro
-
-- title: Development Economics
-  id: "EEP 151"
-  institute: UC Berkeley
-  term: "Fall 2020, 2021"
-  instructor: Prof. Marco Gonzalez-Navarro  
