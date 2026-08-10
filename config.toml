@@ -10,4 +10,4 @@ ignorefiles = [ "hugo_travis_ci", ".travis.yml" ]
     logo = "sc.jpg"
     email = "shreya.chandra@berkeley.edu"
     emaildisplay = "shreya.chandra [at] berkeley [dot] edu"
-    cvlink = "/pdf/Shreya_Chandra_CV_Sep25.pdf"
+    cvlink = "/pdf/Shreya_Chandra_CV_Aug26.pdf"
