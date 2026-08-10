@@ -1,12 +1,20 @@
 courses:
-- title: "Data & Decisions"
+- title: "Data and Decisions"
   institute: "Masters of Business Administration, Haas School of Business, UC Berkeley"
-  term: "Fall 2024, 2025"
+  term: "Fall 2022, 2024, 2025, 2026"
+
+- title: "Ethics and Responsibility in Business"
+  institute: "Masters of Business Administration, Haas School of Business, UC Berkeley"
+  term: "Spring 2026"
 
 - title: "International Economic Development"
   institute: "Masters of Development Practice, Goldman School of Public Policy, UC Berkeley"
   term: "Spring 2022, 2023"
 
+- title: "Introductory Applied Econometrics"
+  institute: "Undergraduate, UC Berkeley"
+  term: "Spring 2021"
+
 - title: "Development Economics"
-  institute: "UC Berkeley"
-  term: "Fall 2021"
+  institute: "Undergraduate, UC Berkeley"
+  term: "Fall 2020, 2021"
