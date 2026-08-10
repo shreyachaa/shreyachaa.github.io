@@ -1,0 +1,73 @@
+{{ define "main" -}}
+<nav class="topnav">
+  <a href="{{ "#research" | relURL }}">Research</a>
+  <a href="{{ "#teaching" | relURL }}">Teaching</a>
+  {{ with .Site.Params.cvlink }}<a href="{{ . | relURL }}">CV</a>{{ end }}
+</nav>
+
+{{ with .GetPage "/sections/aboutme.md" }}
+{{ .Content }}
+{{ end }}
+
+{{ $scratch := newScratch }}
+{{ $scratch.Set "pubcnt" 0 }}
+
+<hr>
+<h2 id="research">Research</h2>
+
+{{ with .Site.Data.job_market_paper }}
+<h3 class="subsection">Job Market Paper</h3>
+{{ range . }}
+{{ range .works }}
+{{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
+{{ $scratch.Add "pubcnt" 1 }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ with .Site.Data.publications }}
+<h3 class="subsection">Publications</h3>
+{{ range . }}
+{{ range .works }}
+{{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
+{{ $scratch.Add "pubcnt" 1 }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ with .Site.Data.working_papers }}
+<h3 class="subsection">Working Papers</h3>
+{{ range . }}
+{{ range .works }}
+{{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
+{{ $scratch.Add "pubcnt" 1 }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ with .Site.Data.work_in_progress }}
+<h3 class="subsection">Work in Progress</h3>
+{{ range . }}
+{{ range .works }}
+{{ partial "publication.html" (dict "context" . "pid" ($scratch.Get "pubcnt")) }}
+{{ $scratch.Add "pubcnt" 1 }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ with .Site.Data.teaching }}
+<hr>
+<h2 id="teaching">Teaching</h2>
+{{ range . }}
+{{ range .courses }}
+<div class="course">
+  <p class="course-title">{{ .title }}</p>
+  {{ with .institute }}<p class="course-meta">{{ . }}</p>{{ end }}
+  {{ with .term }}<p class="course-meta">{{ . }}</p>{{ end }}
+</div>
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ .Content }}
+{{- end }}

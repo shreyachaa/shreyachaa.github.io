@@ -1,0 +1,49 @@
+header img.headshot {
+  width: 180px;
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 0 0 18px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+header p.affiliation {
+  margin: 0 0 14px;
+  line-height: 1.5;
+}
+
+nav.topnav {
+  margin: 0 0 28px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+nav.topnav a {
+  margin-right: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 13px;
+}
+
+h3.subsection {
+  margin: 28px 0 0;
+}
+
+div.course {
+  margin: 0 0 18px;
+}
+
+p.course-title {
+  margin: 0 0 3px;
+  font-weight: 700;
+  color: #222;
+}
+
+p.course-meta {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}

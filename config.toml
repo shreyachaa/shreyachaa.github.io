@@ -6,5 +6,8 @@ defaultContentLanguage = "en"
 ignorefiles = [ "hugo_travis_ci", ".travis.yml" ]
 
 [params]
-    shortbio = "Agricultural and Resource Economics PhD Candidate"
+    shortbio = "PhD Candidate, Department of Agricultural and Resource Economics, University of California, Berkeley"
     logo = "sc.jpg"
+    email = "shreya.chandra@berkeley.edu"
+    emaildisplay = "shreya.chandra [at] berkeley [dot] edu"
+    cvlink = "/pdf/Shreya_Chandra_CV_Sep25.pdf"

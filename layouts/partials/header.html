@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ .Site.Title }} | {{ .Title }}</title>
+        <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                {{ with .Site.Params.logo }}
+                <img src="{{ . | relURL }}" alt="{{ $.Site.Title }}" class="headshot" />
+                {{ end }}
+
+                <h1>{{ .Site.Title }}</h1>
+
+                <p class="affiliation">{{ .Site.Params.shortbio }}</p>
+
+                {{ with .Site.Params.email }}
+                <p class="contactinfo"><a href="mailto:{{ . }}">{{ $.Site.Params.emaildisplay | default . }}</a></p>
+                {{ end }}
+
+                {{ with .Site.Params.cvlink }}
+                <p class="lastcontactinfo"><a href="{{ . | relURL }}">Curriculum Vitae</a></p>
+                {{ end }}
+            </header>
