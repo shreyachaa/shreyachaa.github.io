@@ -19,3 +19,25 @@ Per-session record of work on this site. Newest entries at the bottom.
 1. Add back a Personal/Other section — `content/cookie.jpg` is still in the repo for it.
 2. Decide whether "Worker Preferences for Flexibility and the Persistence of Small Firms" should return to the CV under Work in Progress.
 3. Optional CV polish: trim to 2 pages, confirm Aprajit Mahajan's rank (the ARE directory lists Associate Professor), and consider moving References below the research sections.
+
+## 2026-08-11
+
+**Activity:** Looked into changing the site URL. No changes made — site stays at `shreyachaa.github.io` for now.
+
+**Findings (as of 2026-08-11, re-verify before acting):**
+- `shreyachandra.com` is unregistered (whois returns "No match"). Roughly $10–15/yr.
+- GitHub username `shreyachandra` returns 404 from the API, so it is probably available; GitHub reserves some names, so only the rename page confirms. `shreya-chandra` is taken.
+- A custom domain needs no Hugo config change: `config.toml` sets `relativeURLs = true` and `.github/workflows/hugo.yml:58` passes `--baseURL` from the Pages action.
+- Getting `shreyachandra.github.io` would require renaming the GitHub *account* from `shreyachaa` plus the repo, since user sites must match the username. Risk: the conference submission that links to a `github.com/shreyachaa/...` blob URL relies on GitHub's rename redirect, which breaks permanently if anyone else claims `shreyachaa`.
+
+**Decision:** Deferred. Custom domain is the recommended path (no renames, permanent, keeps existing links working), but the user wants to think about whether to buy it.
+
+**Files changed:** none (this entry only).
+
+**Steps if the domain is purchased later:**
+1. Register `shreyachandra.com` at a registrar.
+2. Add `static/CNAME` containing `shreyachandra.com`; commit and push to `source`.
+3. Set the custom domain in repo Settings → Pages.
+4. At the registrar: four apex `A` records → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; `CNAME` for `www` → `shreyachaa.github.io`.
+5. Wait for the certificate, then enable "Enforce HTTPS".
+6. Check that CV and paper links still resolve.
