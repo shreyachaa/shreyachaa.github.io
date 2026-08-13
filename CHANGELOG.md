@@ -55,6 +55,10 @@ Per-session record of work on this site. Newest entries at the bottom.
 
 **Verified:** Local Hugo build (v0.152.2) renders the JMP title as plain text with no anchor, no abstract toggle, the status and note lines, and the IGC link. No CV link anywhere on the page. Policy Writing's external PDF link is untouched.
 
+**Deployed:** Pushed to `source` as `1dc37fd`; the Pages workflow succeeded. Confirmed against the live page at `shreyachaa.github.io` — no paper or CV link in the HTML, "Draft coming soon." renders, note and IGC link intact.
+
+**Gotcha:** this repo has an `upstream` remote pointing at `gautamrao/gautamrao.github.io`, the site this one was forked from, and no `gh` default repo is set. Plain `gh run list` therefore reports *Gautam Rao's* deploy history, which looks like this site has not deployed since July. Use `gh run list -R shreyachaa/shreyachaa.github.io`, or run `gh repo set-default` once.
+
 **Known cosmetic side effect:** the sidebar email line carries `p.contactinfo` (10px bottom margin) and was previously followed by the CV line with `p.lastcontactinfo` (20px). The sidebar now ends 10px tighter. Not worth a second override to fix.
 
 **Next:**
