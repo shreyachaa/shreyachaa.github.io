@@ -1,10 +1,8 @@
 works:
 
 - title: "Irregular Labor Supply and Coordination in the Workplace: Experimental Evidence from India"
-  pdflink: "/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf"
+  status: "Draft coming soon."
   note: "Previously circulated as “Flexible Work Arrangements and Firm Outcomes: Experimental Evidence from India”."
   links:
     - url: "https://www.theigc.org/publications/flexible-work-arrangements-and-firm-outcomes-experimental-evidence-indias-garment"
       text: "IGC blog post"
-  abstract: >
-    This paper studies how irregular labor supply affects the organization of production in the context of a large apparel manufacturing cluster in India. Production is organized as batch processing lines, where tasks are performed sequentially to produce the finished product. In the status quo, workers choose their own work timings, resulting in significant dispersion in arrival times at the firm. I conduct an experiment with 96 small factories comprising 600 workers, where all workers in treatment firms are incentivized to arrive at work by the owner’s preferred start time for a period of 4-weeks. Workers are paid a daily bonus equivalent to 20% of average earnings if they arrive on or before the start time. Incentives increase timely arrival in treatment firms by 43% relative to control firms. These changes are driven by workers who were consistently late to arrive at the firm at baseline. As a result, there is meaningful improvement in coordination of worker arrival times – dispersion in arrival times decreases by 17%. Individual worker output increases for all workers in treatment firms, not only those who changed their arrival times as a result of the incentive. I show that these positive spillovers are generated through gains along the production line from improved coordination. Weekly firm output increases by 29% and delays in order-completion fall by 13 percentage points.

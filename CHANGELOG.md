@@ -41,3 +41,23 @@ Per-session record of work on this site. Newest entries at the bottom.
 4. At the registrar: four apex `A` records → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; `CNAME` for `www` → `shreyachaa.github.io`.
 5. Wait for the certificate, then enable "Enforce HTTPS".
 6. Check that CV and paper links still resolve.
+
+## 2026-08-12
+
+**Activity:** Took every PDF link off the site until the materials are final. The job market paper is now an unlinked title with "Draft coming soon." under it, keeping the "previously circulated as" note and the IGC blog post link; the abstract is gone. Both CV links (top nav and sidebar) are gone too.
+
+**Decisions:**
+- Added `layouts/partials/publication.html` as an override of the theme partial, adding a `status` field that renders directly below the title. Overriding rather than patching, since the theme is a submodule of someone else's repo. The field is generic, so any entry in any section can use it.
+- Commented out `cvlink` in `config.toml` rather than deleting it. Both CV links are guarded by `{{ with .Site.Params.cvlink }}`, so one commented line removes both and uncommenting restores them.
+- Left both PDFs in place. `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` and `static/pdf/Shreya_Chandra_CV_Aug26.pdf` are still in the public repo and still reachable by direct URL — only the links are gone. The paper PDF must stay at that exact path for the conference submission that links to its GitHub blob URL (see 2026-08-10).
+
+**Files changed:** `data/job_market_paper/list.yaml` (removed `pdflink` and `abstract`, added `status`), `layouts/partials/publication.html` (new), `config.toml`.
+
+**Verified:** Local Hugo build (v0.152.2) renders the JMP title as plain text with no anchor, no abstract toggle, the status and note lines, and the IGC link. No CV link anywhere on the page. Policy Writing's external PDF link is untouched.
+
+**Known cosmetic side effect:** the sidebar email line carries `p.contactinfo` (10px bottom margin) and was previously followed by the CV line with `p.lastcontactinfo` (20px). The sidebar now ends 10px tighter. Not worth a second override to fix.
+
+**Next:**
+1. Restore both links when the draft and CV are final — uncomment `cvlink`, re-add `pdflink` to the JMP entry, drop `status`, and put the abstract back (the removed text is in this file's git history at `449059d..`).
+2. Carried over from 2026-08-10: add back a Personal/Other section (`content/cookie.jpg` is still in the repo); decide whether "Worker Preferences for Flexibility and the Persistence of Small Firms" returns to the CV under Work in Progress; optional CV polish (trim to 2 pages, confirm Aprajit Mahajan's rank, consider moving References below the research sections).
+3. Carried over from 2026-08-11: the six-step custom-domain setup, if `shreyachandra.com` gets bought.
