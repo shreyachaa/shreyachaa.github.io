@@ -65,3 +65,18 @@ Per-session record of work on this site. Newest entries at the bottom.
 1. Restore both links when the draft and CV are final — uncomment `cvlink`, re-add `pdflink` to the JMP entry, drop `status`, and put the abstract back (the removed text is in this file's git history at `449059d..`).
 2. Carried over from 2026-08-10: add back a Personal/Other section (`content/cookie.jpg` is still in the repo); decide whether "Worker Preferences for Flexibility and the Persistence of Small Firms" returns to the CV under Work in Progress; optional CV polish (trim to 2 pages, confirm Aprajit Mahajan's rank, consider moving References below the research sections).
 3. Carried over from 2026-08-11: the six-step custom-domain setup, if `shreyachandra.com` gets bought.
+
+## 2026-09-30
+
+**Activity:** Published the current academic CV and restored the CV links, which had been hidden since 10 August. Edited the LaTeX source: added a `* Scheduled.` legend to the foot of Conferences & Workshops (five entries carried an unexplained asterisk), fixed `CEGA R\^2` to `CEGA R$^2$` (`\^` is a circumflex accent, not a superscript), and moved Conferences above Teaching so the order is now Conferences > Teaching > Research & Professional Experience.
+
+**Decisions:**
+- **Dropped the date suffix from the filename.** The PDF is now `static/pdf/Shreya_Chandra_CV.pdf`, not `_Sep26`, so future updates overwrite in place and no link ever goes stale.
+- **Left `Shreya_Chandra_CV_Aug26.pdf` in the repo.** It is no longer linked but is still reachable by direct URL, so deleting it could break a link someone already holds. Remove it deliberately, not as cleanup.
+- **The live CV source is `Dropbox/SC_Applications/Jobs/materials/cv/Academic/Shreya_Chandra_CV.tex`.** The path recorded in the 2026-08-10 entry above, `Dropbox/SC_Applications/2_CV/latex/`, was archived to `2_CV/z_archives/latex/` on 18 September and is 10 lines behind — it lacks the Working Papers section, the Pay Contracts entry and the current conference list. That entry is stale; do not edit the archived copy.
+
+**Note on what this publish ships.** The live PDF dated from 10 August, so activating the link also exposes seven weeks of accumulated CV changes: a new Working Papers section, the Pay Contracts entry (*Piloting in progress*), Organizational Economics commented out of Fields, the author name added to the JMP title line, and Research & Professional Experience relocated to near the end. Three pages, unchanged.
+
+**Files changed:** `config.toml` (`cvlink` uncommented and repointed), `static/pdf/Shreya_Chandra_CV.pdf` (new). Outside the repo: `Jobs/materials/cv/Academic/Shreya_Chandra_CV.tex` (backup at `.tex.bak-20260930`).
+
+**Next:** Decide whether to move the domain to shreyachandra.com.
