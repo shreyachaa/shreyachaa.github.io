@@ -80,3 +80,18 @@ Per-session record of work on this site. Newest entries at the bottom.
 **Files changed:** `config.toml` (`cvlink` uncommented and repointed), `static/pdf/Shreya_Chandra_CV.pdf` (new). Outside the repo: `Jobs/materials/cv/Academic/Shreya_Chandra_CV.tex` (backup at `.tex.bak-20260930`).
 
 **Next:** Decide whether to move the domain to shreyachandra.com.
+
+## 2026-09-30 (later)
+
+**Activity:** Registered `shreyachandra.com` at Cloudflare Registrar and pointed it at the site. Updated the CV header to the new domain and rebuilt it.
+
+**Decisions:**
+- **Custom domain rather than a repo or username rename.** A user site's URL is derived from the GitHub username, so `shreyachandra.github.io` would have required changing the username — and both `shreyachandra` and `shreya-chandra` are already taken on GitHub. A rename would also have put the conference submission's blob URL at risk (see 2026-08-10) and released `shreyachaa` for someone else to claim.
+- **No repo changes were needed for the domain.** `config.toml` sets `relativeURLs = true` and the workflow passes `--baseURL "${{ steps.pages.outputs.base_url }}/"`, so the base URL follows whatever GitHub reports once the custom domain is set. No hardcoded `shreyachaa.github.io` exists outside `public/` and this changelog.
+- **No `CNAME` file.** Publishing via a custom Actions workflow means GitHub ignores one; the domain is set in Settings → Pages instead.
+
+**DNS (Cloudflare, all records DNS-only / grey cloud):** four A records on `@` to 185.199.108–111.153; four AAAA on `@` to 2606:50c0:8000–8003::153; CNAME `www` → `shreyachaa.github.io`. Proxying must stay off or GitHub cannot provision the TLS certificate.
+
+**Files changed:** `static/pdf/Shreya_Chandra_CV.pdf` (rebuilt with the new domain in the header). Outside the repo: `Jobs/materials/cv/Academic/Shreya_Chandra_CV.tex`.
+
+**Next:** Enable "Enforce HTTPS" in Settings → Pages — `http://shreyachandra.com` currently returns 200 without redirecting to https.
