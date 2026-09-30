@@ -95,3 +95,11 @@ Per-session record of work on this site. Newest entries at the bottom.
 **Files changed:** `static/pdf/Shreya_Chandra_CV.pdf` (rebuilt with the new domain in the header). Outside the repo: `Jobs/materials/cv/Academic/Shreya_Chandra_CV.tex`.
 
 **Next:** Enable "Enforce HTTPS" in Settings → Pages — `http://shreyachandra.com` currently returns 200 without redirecting to https.
+
+## 2026-09-30 (later still)
+
+**Activity:** Removed `static/pdf/Shreya_Chandra_CV_Aug26.pdf` from the repo at the user's request. It was unlinked since the 30 Sep publish but still served a 200 at its direct URL; that URL now 404s. The file remains in git history and is recoverable from an earlier commit — removing it from the working tree does not erase it from a public repo's history. No copy existed outside the repo.
+
+`static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` is untouched and must stay at that exact path (see 2026-08-10).
+
+**Files changed:** deleted `static/pdf/Shreya_Chandra_CV_Aug26.pdf`.
