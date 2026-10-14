@@ -103,3 +103,13 @@ Per-session record of work on this site. Newest entries at the bottom.
 `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` is untouched and must stay at that exact path (see 2026-08-10).
 
 **Files changed:** deleted `static/pdf/Shreya_Chandra_CV_Aug26.pdf`.
+
+## 2026-10-13
+
+**Activity:** Replaced the JMP PDF with the Oct 13 draft (new title "Irregular Labor Supply and Coordination in Firms: Experimental Evidence from India"; 57 pages), built locally from the Overleaf Dropbox copy.
+
+**Decisions:** Kept the exact path `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` so the existing GitHub blob link resolves to the new version. Push needed `-c http.postBuffer=524288000` (HTTP 400 otherwise).
+
+**Files changed:** `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf`.
+
+**Next:** `data/job_market_paper/list.yaml` still shows the old title ("…Coordination in the Workplace…") and "Draft coming soon"; update title/abstract and CV via `/update-paper` if wanted.
