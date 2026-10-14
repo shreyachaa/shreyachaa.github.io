@@ -113,3 +113,4 @@ Per-session record of work on this site. Newest entries at the bottom.
 **Files changed:** `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf`.
 
 **Next:** `data/job_market_paper/list.yaml` still shows the old title ("…Coordination in the Workplace…") and "Draft coming soon"; update title/abstract and CV via `/update-paper` if wanted.
+- Reverted the same night: user does not want the new paper on the site until ready to make it public. `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` is back to the Aug 10 version; the Oct 13 PDF remains in git history (commit d604da6).
