@@ -124,3 +124,9 @@ Per-session record of work on this site. Newest entries at the bottom.
 - Abstract and CV not updated (no `/update-paper` run), since the paper is not being announced.
 
 **Files changed:** `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf`
+
+## 2026-10-19
+
+**Activity:** Replaced the paper-link PDF with `Chandra_Shreya_JMP.pdf` from the FSPW Dropbox `paper/paper/` folder at the user's request (compiled 2026-10-13 23:40, title page dated October 13, 2026; 57 pages). Same path, so the conference blob URL and `/pdf/` URL keep working; still unlinked on the site.
+
+**Files changed:** `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf`
