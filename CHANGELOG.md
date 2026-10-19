@@ -114,3 +114,13 @@ Per-session record of work on this site. Newest entries at the bottom.
 
 **Next:** `data/job_market_paper/list.yaml` still shows the old title ("…Coordination in the Workplace…") and "Draft coming soon"; update title/abstract and CV via `/update-paper` if wanted.
 - Reverted the same night: user does not want the new paper on the site until ready to make it public. `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` is back to the Aug 10 version; the Oct 13 PDF remains in git history (commit d604da6).
+
+## 2026-10-18
+
+**Activity:** Re-published the Oct 13 JMP draft (title page dated October 14, 2026) at `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf`, restoring blob `a39ef09` from commit `d604da6`.
+
+**Decisions:**
+- Link-only release: the file is reachable at the conference GitHub blob URL and the `/pdf/` URL, but no page on the site links to it. Paper links stay hidden until the user makes the paper public.
+- Abstract and CV not updated (no `/update-paper` run), since the paper is not being announced.
+
+**Files changed:** `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf`
