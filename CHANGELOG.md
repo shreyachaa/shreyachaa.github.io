@@ -136,3 +136,11 @@ Per-session record of work on this site. Newest entries at the bottom.
 **Activity:** Replaced the paper-link PDF with the Oct 21 build of `Chandra_Shreya_JMP.pdf` (title page dated October 21, 2026; 61 pages). Same path; still unlinked on the site.
 
 **Files changed:** `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf`
+
+## 2026-10-23
+
+**Activity:** Added local git hooks (`.git/hooks/post-commit`, `post-merge`, shared `sync-jmp`) that copy `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` to `Dropbox/SC_Applications/Jobs/materials/jmp/Chandra_Shreya_JMP.pdf` plus a dated copy in `z_archives/` whenever a commit or pull changes it. Seeded with the Oct 21 draft.
+
+**Decisions:**
+- Hooks live in `.git/hooks`, so they are local to this Mac and not versioned; a GitHub web-UI upload reaches Dropbox on the next local pull.
+- Dated copy uses the commit date; a second change the same day adds `_<shorthash>`.
