@@ -144,3 +144,7 @@ Per-session record of work on this site. Newest entries at the bottom.
 **Decisions:**
 - Hooks live in `.git/hooks`, so they are local to this Mac and not versioned; a GitHub web-UI upload reaches Dropbox on the next local pull.
 - Dated copy uses the commit date; a second change the same day adds `_<shorthash>`.
+
+## 2026-10-26
+
+**Activity:** Added a Committee line below "I am on the 2026-27 job market" in `content/sections/aboutme.md`: Jeremy Magruder, Aprajit Mahajan and Edward Miguel, each linked to their email from the CV.
