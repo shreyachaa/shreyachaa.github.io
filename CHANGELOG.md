@@ -153,3 +153,4 @@ Per-session record of work on this site. Newest entries at the bottom.
 
 **Activity:** Replaced `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` with the Oct 28 build of `Chandra_Shreya_JMP.pdf` (71 pages). Still reachable only by direct link.
 - Replaced again with the 18:06 build (71 pages).
+- Updated `static/pdf/Shreya_Chandra_CV.pdf` from the LaTeX CV (Jobs/materials/cv/Academic): added "Politics and Public Sector Productivity" with Utkarsh Kumar under Work in Progress; fixed a closing quote.
