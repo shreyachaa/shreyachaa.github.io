@@ -148,3 +148,7 @@ Per-session record of work on this site. Newest entries at the bottom.
 ## 2026-10-26
 
 **Activity:** Added a Committee line below "I am on the 2026-27 job market" in `content/sections/aboutme.md`: Jeremy Magruder, Aprajit Mahajan and Edward Miguel, each linked to their email from the CV.
+
+## 2026-10-28
+
+**Activity:** Replaced `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` with the Oct 28 build of `Chandra_Shreya_JMP.pdf` (71 pages). Still reachable only by direct link.
