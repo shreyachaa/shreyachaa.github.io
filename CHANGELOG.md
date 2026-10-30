@@ -160,3 +160,5 @@ Per-session record of work on this site. Newest entries at the bottom.
 **Activity:** Removed Introductory Applied Econometrics (Spring 2021) from Teaching and from the CV; the user was a grader, not a section instructor.
 
 **Files changed:** `data/teaching/classes.yaml`, `static/pdf/Shreya_Chandra_CV.pdf` (rebuilt from `Jobs/materials/cv/Academic/Shreya_Chandra_CV.tex`).
+- Renamed the JMP to "Irregular Labor Supply and Coordination in Firms: Experimental Evidence from India" (`data/job_market_paper/list.yaml`) to match the paper.
+- Updated `static/pdf/Shreya_Chandra_CV.pdf`: new JMP title, and the CV abstract now matches the paper's (92 firms).
