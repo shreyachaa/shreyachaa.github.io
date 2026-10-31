@@ -162,3 +162,7 @@ Per-session record of work on this site. Newest entries at the bottom.
 **Files changed:** `data/teaching/classes.yaml`, `static/pdf/Shreya_Chandra_CV.pdf` (rebuilt from `Jobs/materials/cv/Academic/Shreya_Chandra_CV.tex`).
 - Renamed the JMP to "Irregular Labor Supply and Coordination in Firms: Experimental Evidence from India" (`data/job_market_paper/list.yaml`) to match the paper.
 - Updated `static/pdf/Shreya_Chandra_CV.pdf`: new JMP title, and the CV abstract now matches the paper's (92 firms).
+
+## 2026-10-30
+
+**Activity:** Replaced `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` with the Oct 30 23:45 build of `Chandra_Shreya_JMP.pdf`. Still reachable only by direct link.
