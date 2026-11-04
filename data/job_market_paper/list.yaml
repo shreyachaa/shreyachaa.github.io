@@ -1,7 +1,8 @@
 works:
 
 - title: "Irregular Labor Supply and Coordination in Firms: Experimental Evidence from India"
-  status: "Draft coming soon."
+  status: "Paper draft coming soon."
+  abstract: "Firms in developing countries face uncertainty in whether and when workers arrive at work. Such irregularity can be costly to firms, especially when production requires coordinating labor inputs. This paper tests whether and how irregular labor supply affects firms' ability to coordinate workers and firm outcomes. I run a randomized experiment with 92 manufacturing firms in India. Firms are organized as production lines. Yet, on average, three in five workers arrive after their firm's start time. Workers in treatment firms are offered a daily incentive equivalent to 20% of earnings conditional on arriving by the start time for four weeks. Incentives increase timely arrival from 41% to 59% of worker-days, driven by workers who arrived late at baseline. Worker output increases by 24% for all treatment firm workers, including those who arrived early at baseline and did not change their arrival times in response to the incentive. These spillovers from late to early workers are concentrated in firms where late workers perform tasks upstream in the production line, suggesting irregular labor supply creates hold-ups within firms. Treatment firms produce 29% more output, receive 21% more new orders and have 40% fewer delayed orders. Findings suggest that irregular labor supply hurts firm output, but coordinating worker arrival times can be costly given workers' strong preference for flexibility."
   note: "Previously circulated as “Flexible Work Arrangements and Firm Outcomes: Experimental Evidence from India”."
   links:
     - url: "https://www.theigc.org/publications/flexible-work-arrangements-and-firm-outcomes-experimental-evidence-indias-garment"
