@@ -179,3 +179,7 @@ Per-session record of work on this site. Newest entries at the bottom.
 - Renamed the JMP link "IGC blog post" to "IGC policy brief".
 - Moved the "Previously circulated as" note below the abstract. Teaching: removed Fall 2022 (Data and Decisions) and Fall 2020 (Development Economics); added Spring 2027 (Ethics and Responsibility in Business).
 - Rebuilt the CV with the same teaching-term changes and replaced `static/pdf/Shreya_Chandra_CV.pdf`.
+
+## 2026-11-05
+
+**Activity:** Replaced `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` with the Nov 5 18:35 build of `Chandra_Shreya_JMP.pdf` (75 pages). Still reachable only by direct link.
