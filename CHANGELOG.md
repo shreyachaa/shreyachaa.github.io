@@ -183,3 +183,7 @@ Per-session record of work on this site. Newest entries at the bottom.
 ## 2026-11-05
 
 **Activity:** Replaced `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` with the Nov 5 18:35 build of `Chandra_Shreya_JMP.pdf` (75 pages). Still reachable only by direct link.
+
+## 2026-11-07
+
+**Activity:** Made the JMP public on the homepage at the user's request: removed "Paper draft coming soon.", linked the title to `/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf`, and added a "Paper (PDF)" link above the IGC policy brief.
