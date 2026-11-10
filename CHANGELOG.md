@@ -188,3 +188,7 @@ Per-session record of work on this site. Newest entries at the bottom.
 
 **Activity:** Made the JMP public on the homepage at the user's request: removed "Paper draft coming soon.", linked the title to `/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf`, and added a "Paper (PDF)" link above the IGC policy brief.
 - Removed the "Paper (PDF)" link (user reported it did not work); the title still links to the PDF.
+
+## 2026-11-09
+
+**Activity:** Replaced `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` with the Nov 9 17:21 build of `Chandra_Shreya_JMP.pdf` (77 pages). Linked from the homepage title.
