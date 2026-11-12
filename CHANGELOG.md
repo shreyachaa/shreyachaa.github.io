@@ -192,3 +192,7 @@ Per-session record of work on this site. Newest entries at the bottom.
 ## 2026-11-09
 
 **Activity:** Replaced `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` with the Nov 9 17:21 build of `Chandra_Shreya_JMP.pdf` (77 pages). Linked from the homepage title.
+
+## 2026-11-11
+
+**Activity:** Replaced `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` with the Nov 11 18:44 build of `Chandra_Shreya_JMP.pdf` (80 pages).
