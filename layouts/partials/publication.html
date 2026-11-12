@@ -8,6 +8,8 @@
 {{ with .context.abstract }}<p style="margin:0 0 5px;"><a href="javascript:toggle({{ $pid }})">Abstract<span id="pubabslink_{{ $pid }}"> (click to expand)</span></a><span id="pubabs_{{ $pid }}" style="display:none;">: {{ . }}</span></p>{{ end }}
 {{ with .context.note }}<p style="margin:0 0 5px;">{{ . }}</p>{{ end }}
 
+{{ with .context.coverage }}<p style="margin:0 0 5px;">Coverage: {{ range $i, $c := . }}{{ if $i }}, {{ end }}<a href="{{ $c.url }}" target="blank">{{ $c.text }}</a>{{ end }}</p>{{ end }}
+
 {{ with .context.links }}
 {{ range . }}
 <p style="margin:0 0 5px;"><a href="{{ .url }}" target="blank">{{ .text }}</a>{{ with .note }}: {{ . }}{{ end }}</li>

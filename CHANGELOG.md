@@ -201,3 +201,4 @@ Per-session record of work on this site. Newest entries at the bottom.
 
 **Activity:** Added a "WB Blog" link (World Bank Development Impact post, "Stalling the production line") under the JMP, above the IGC policy brief.
 - Removed the unused "Install Dart Sass" step from `.github/workflows/hugo.yml`: the site has no Sass, and snap-store timeouts (HTTP 408) were failing every deploy.
+- Combined the JMP links into one line: "Coverage: WB Blog, IGC Policy Brief" (new `coverage` field in the publication partial).
