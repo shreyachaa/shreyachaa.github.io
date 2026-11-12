@@ -196,3 +196,7 @@ Per-session record of work on this site. Newest entries at the bottom.
 ## 2026-11-11
 
 **Activity:** Replaced `static/pdf/Chandra_Shreya_UCB_FSPW_Paper.pdf` with the Nov 11 18:44 build of `Chandra_Shreya_JMP.pdf` (80 pages).
+
+## 2026-11-12
+
+**Activity:** Added a "WB Blog" link (World Bank Development Impact post, "Stalling the production line") under the JMP, above the IGC policy brief.
