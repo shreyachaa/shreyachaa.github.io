@@ -210,3 +210,4 @@ Per-session record of work on this site. Newest entries at the bottom.
 ## 2026-11-19
 
 **Activity:** CV: added a Service & Refereeing section (referee, Journal of Development Economics; grant reviewer, SurveyCTO Primary Data Collection Grant); replaced `static/pdf/Shreya_Chandra_CV.pdf`.
+- CV: 2026 conferences no longer marked scheduled (only STEG 2027 is); "*Scheduled" note moved onto the Conferences & Workshops heading line.
