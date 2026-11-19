@@ -206,3 +206,7 @@ Per-session record of work on this site. Newest entries at the bottom.
 ## 2026-11-18
 
 **Activity:** CV: moved "Can Flexible Microcredit Substitute For Informal Finance?" (with Rigol and Roth) from Working Papers to Work in Progress ("Draft in progress"), dropped its abstract and the now-empty Working Papers section; replaced `static/pdf/Shreya_Chandra_CV.pdf`.
+
+## 2026-11-19
+
+**Activity:** CV: added a Service & Refereeing section (referee, Journal of Development Economics; grant reviewer, SurveyCTO Primary Data Collection Grant); replaced `static/pdf/Shreya_Chandra_CV.pdf`.
